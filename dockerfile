@@ -28,4 +28,4 @@ EXPOSE 3000
 
 # Command used to start application
 
-CMD ["node", "server.js"]
+CMD npm run start
