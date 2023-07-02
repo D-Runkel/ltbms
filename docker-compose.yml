@@ -18,14 +18,14 @@ services:
   # Mongo DB storage container
 
   mongo:
-    container_name: mongodb
+    container_name: lafs-db
     image: 'mongo:4'
     ports:
     - '27017:27017'
 
   # Attach the external network to these containers
 
-  networks:
+networks:
   default:
-  external:
-  name: lafs-net
+    external:
+      name: lafs-net
