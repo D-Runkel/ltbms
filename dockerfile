@@ -2,7 +2,7 @@ FROM node:10
 
 # Create app directory
 
-WORKDIR /usr/src/ltbms
+WORKDIR /usr/src/ltbms-web
 
 # Install app dependencies
 
